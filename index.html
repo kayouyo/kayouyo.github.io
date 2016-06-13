@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>Miffy | About</title>
+    <!-- index.cssのCSS読み込み -->
+    <link rel="stylesheet" href="index.css" />
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -15,7 +17,47 @@
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="selected">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="logo">
+            <img src="miffy.png" alt="" />
+            <h1>Miffy</h1>
+        </div>
+    </header>
+    <div class="container">
+        <section>
+            <h2>About</h2>
+            <p>Miffy is a small female rabbit.</p>
+            <p>The original Dutch name <span class="red"> Nijntje</span> is a shortening of the diminutive konijntje, "little rabbit".</p>
+            <p>The first Miffy book was produced in 1955, and almost 30 others have followed. </p>
+            <br/>
+            <p>Creator: Dick Bruna</p>
+            <br/>
+            <p>Please check <a href="www.miffy.jp/">Miffy</a> for more secrets of miffy!</p>
+        </section>
+        <section>
+            <h2>Link</h2>
+            <p><a href="https://kayouyo.github.io/">GitHub</a> </p>
+            <br/>
+            <p><a href="https://kayouyo.github.io/">アプリケーション1</a> </p>
+            <br/>
+            <p><a href="https://kayouyo.github.io/">アプリケーション2</a> </p>
+            <br/>
+            <p><a href="https://kayouyo.github.io/">アプリケーション3</a> </p>
+            <br/>
+            <p><a href="https://kayouyo.github.io/">アプリケーション4</a> </p>
+            <br/>
+        </section>
+        <footer>
+            <p>&copy; 2016 Miffy.</p>
+        </footer>
+    </div>
 </body>
 
 </html>
